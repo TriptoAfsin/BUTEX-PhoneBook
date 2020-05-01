@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="ham-btn">
+            <img src="./ham.png" height="24px" width="28px" id="ham-btn">
+        </label>
+        <label class="brand"><a href="./index.html"><img src="./back.png"></a></label>
+        <ul>
+            <li><a href="./index.html" class="nav-btn">Home</a></li>
+            <li><a href="./books.html" class="nav-btn">Browse Departments</a></li>
+            <li><a href="./submission.html" class="nav-btn">Submit Books</a></li>
+            <li><a href="http://www.facebook.com/sharer.php?u=" class="nav-btn">Share</a></li>
+            <li><a href="./about.html" class="nav-btn">About</a></li>
+        </ul>
+    </nav>
+    <div>
+        <form class="books-dropdown">
+            <p class="dropddown-header">Browse Departments - </p>
+            <p class="art-lit-edu">Select:</p>
+            <select id="book-display-list" onchange="displayBooks()" class="book-display-list">
+            <option value="none" id="diselectArt">None</option>
+            <option value="">Select</option>
+              <option value="admin">Administration</option>
+              <option value="WPE">WPE</option>
+              <option value="tem">TEM</option>
+              <option value="tfd">TFD</option>
+              <option value="IPE">IPE</option>
+              <option value="yarn">YE</option>
+              <option value="dce">DCE</option>
+              <option value="apparel1">AE</option>
+              <option value="TMDM">TMDM</option>
+              <option value="fabric">FE</option>
+              <option value="ese">ESE</option>
+              <option value="doctor">Medical Center</option>
+              <option value="provost">Hall Provost</option>
+              <option value="staff">Staffs</option>
+            </select>
+          </form>
+    </div>
+    <div class="book-display" id="book-display">
+        <p id="suggestion">Select any category from the dropdown list given above ^</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

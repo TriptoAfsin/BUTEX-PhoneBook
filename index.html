@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="BUTEX Online Phonebook" />
+    <meta property="og:description" content="Find Teachers Contacts" />
+    <meta property="og:url" content="./index.html"/>
+    <meta property="og:site_name" content="Online PhoneBook" />
+    <meta property="og:image" content="https://i.imgur.com/JxVCdeL.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./phone.svg"></link>
+    <title>Cloud Lib</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="ham-btn">
+            <img src="./ham.png" height="24px" width="28px" id="ham-btn">
+        </label>
+        <label class="brand"><a href="./index.html">BUTEX Phonebook</a></label>
+        
+        <ul>
+            <li><a href="./index.html" class="nav-btn">Home</a></li>
+            <li><a href="./books.html" class="nav-btn">Browse Departments</a></li>
+            <li><a href="./submission.html" class="nav-btn">Submit Contacts</a></li>
+            <li><a href="http://www.facebook.com/sharer.php?u=" class="nav-btn">Share</a></li>
+            <li><a href="./about.html" class="nav-btn">About</a></li>
+        </ul>
+    </nav>
+    <div class="data-container">
+        <img src="data.png" class="data-img"><p id="database"></p>
+    </div>
+    <div class="img-holder" id="img-holder">
+        <img src="./phone.svg"  class="cloud">
+        <p class="img-txt">Phone Book</p>
+   </div>
+   <div class="search-container">
+       <input type="text" placeholder="Type to Search" id="search" class="search"><br>
+       <p class="suggestion" id="suggestion">search by the Teacher's name/ Faculty etc,<b> simply just type & </b><br><b>Don't put random keywords</b></p><br>
+       <div id="emergency">
+        <p class="emer-banner" id="emer-banner">Emergency Contacts:</b></p><br>
+        <a href="tel:+8801711981046">Doctor</a>
+        <a href="tel:+8801711577451">Fire Service</a>
+       </div>
+       
+   </div>
+   <div class="result-container">
+     <div id="list" class="list"></div>
+   </div>
+    <script src="./main.js"></script>
+</body>
+</html>
