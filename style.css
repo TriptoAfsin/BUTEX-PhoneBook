@@ -118,6 +118,21 @@ body{
     padding: 1rem 2rem;
     margin-bottom: 1rem;
 }
+#batch-display-list{
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+}
+#cr-display-list{
+    border: none;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+}
+
 #book-display-list2{
     border: none;
     border-radius: 10px;
