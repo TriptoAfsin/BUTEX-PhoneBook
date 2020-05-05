@@ -857,28 +857,228 @@ let database = [
        "faculty" : "Medical officer",
       "terms": "doctor" ,
      },
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+     {
+        "name": "Afshin Nahian Tripto",
+        "contact": "+8801936396220",
+        "faculty" : "CR IPE-44",
+       "terms": "ipe44 CR ipe 44" ,
+     },
+     {
+        "name": "Mehedi Bhuiyan Sakib",
+        "contact": "+8801871513363",
+        "faculty" : "CR IPE-44",
+       "terms": "ipe44 CR ipe 44" ,
+     },
+     {
+        "name": "Abir Mohammad Sadi",
+        "contact": "+8801753926399",
+        "faculty" : "CR TEM-44",
+       "terms": "tem44 TEM 44" ,
+     },
+     {
+        "name": "Nadim Mahmud",
+        "contact": "+8801759674245",
+        "faculty" : "CR TEM-44",
+       "terms": "tem44 TEM 44" ,
+     },
+     {
+        "name": "SABBIR OSMANI ",
+        "contact": "+8801864314011",
+        "faculty" : "CR WPE-44",
+       "terms": "WPE44 WPE 44" ,
+     },
+     {
+        "name": "Md.Mujibul Haque Opu",
+        "contact": "+8801638395260",
+        "faculty" : "CR YE-44",
+       "terms": "ye44 CR YE 44" ,
+     },
+     {
+        "name": "Shafi Bin Faisal",
+        "contact": "+8801790602558",
+        "faculty" : "CR YE-44",
+       "terms": "ye44 CR YE 44" ,
+     },
+     {
+        "name": "Fahmida Akter Tisha",
+        "contact": "+8801642472935",
+        "faculty" : "CR DCE-44",
+       "terms": "DCE44 CR YE 44" ,
+     },
+     {
+        "name": "Fahim Khan Bappy",
+        "contact": "+8801521560308",
+        "faculty" : "CR DCE-44",
+       "terms": "DCE44 CR YE 44" ,
+     },
+     {
+        "name": "S.M.Zohayer Akhter.(Priym)",
+        "contact": "+8801675020974",
+        "faculty" : "CR TEM-45",
+       "terms": "tem45 CR TEM 45" ,
+     },
+     {
+        "name": "Ahsan Kabir Joy",
+        "contact": "+8801864621915",
+        "faculty" : "CR TEM-45",
+       "terms": "tem45 CR TEM 45" ,
+     },
+     {
+        "name": "Md.Sakib Ahmed Rajib ",
+        "contact": "+8801724428595",
+        "faculty" : "CR TEM-45",
+       "terms": "tem45 CR TEM 45" ,
+     },
+     {
+        "name": "Asif Iqbal",
+        "contact": "+8801772234574",
+        "faculty" : "CR CR IPE-45",
+       "terms": "ipe45 IPE 45" ,
+     },
+     {
+        "name": "MD. Mahmudul Huq Talukder",
+        "contact": "+8801632886593",
+        "faculty" : "CR CR IPE-45",
+       "terms": "ipe45 IPE 45" ,
+     },
+     {
+        "name": "Amirul Islam Sheam",
+        "contact": "+8801860489860",
+        "faculty" : "CR AE-45",
+       "terms": "AE45 CR AE 45" ,
+     },
+     {
+        "name": "Mohammad Saiful Islam ",
+        "contact": "+8801733046277",
+        "faculty" : "CR FE-45",
+       "terms": "FE45 CR FE 45" ,
+     },
+     {
+        "name": "Minhajul Islam",
+        "contact": "+8801751911992",
+        "faculty" : "CR TMDM-45",
+       "terms": "TMDM45 CR TMDM 45" ,
+     },
+     {
+        "name": "Enamul Muyeed Latifi ",
+        "contact": "+8801951434528",
+        "faculty" : "CR ESE-45",
+       "terms": "ESE45 CR ESE 45" ,
+     },
+     {
+        "name": "Robayet Al Hamim",
+        "contact": "+8801987860015",
+        "faculty" : "CR YE-45",
+       "terms": "YE45 CR YE 45" ,
+     },
+     {
+        "name": "Safi Ahmed",
+        "contact": "+8801302441968",
+        "faculty" : "CR FE-45",
+       "terms": "FE45 CR FE 45" ,
+     },
+     {
+        "name": "Shoaib Ahmed Shimul",
+        "contact": "+8801829774680",
+        "faculty" : "CR WPE-45",
+       "terms": "WPE45 CR WPE 45" ,
+     },
+     {
+        "name": "Rizwan Khan Shishir",
+        "contact": "+8801880880489",
+        "faculty" : "CR AE-45",
+       "terms": "AE45 CR YE 45" ,
+     },
+     {
+        "name": "Atiquzzaman Sazal",
+        "contact": "+8801889383537",
+        "faculty" : "CR DCE-45",
+       "terms": "DCE45 CR DCE 45" ,
+     },
+     {
+        "name": "S. A. S Mehshan-UL-Islam",
+        "contact": "+8801757498885",
+        "faculty" : "CR TMDM-45",
+       "terms": "TMDM45 CR TMDM 45" ,
+     },
+     {
+        "name": "Hasib Hossain",
+        "contact": "+8801930089131",
+        "faculty" : "CR WPE-43",
+       "terms": "WPE43 CR WPE 43" ,
+     },
+     {
+        "name": "MD EMUM HOSSAIN MOLLA",
+        "contact": "+8801521429301",
+        "faculty" : "CR YE-43",
+       "terms": "YE43 CR YE 43" ,
+     },
+     {
+        "name": "Yeamin",
+        "contact": "+8801521428857",
+        "faculty" : "CR FE-43",
+       "terms": "FE43 CR FE 43" ,
+     },
+     {
+        "name": "Md Tanvir Hasan Meraz",
+        "contact": "+8801787541473",
+        "faculty" : "CR WPE-43",
+       "terms": "WPE43 CR WPE 43" ,
+     },
+     {
+        "name": "Nafis Azad",
+        "contact": "+8801995864607",
+        "faculty" : "CR DCE-43",
+       "terms": "DCE43 CR DCE 43" ,
+     },
+     {
+        "name": "Mahi Nuzzaman",
+        "contact": "+8801521433901",
+        "faculty" : "CR TEM-43",
+       "terms": "TEM43 CR TEM 43" ,
+     },
+     {
+        "name": "Tawsif Adnan",
+        "contact": "+8801978188230",
+        "faculty" : "CR TMDM-43",
+       "terms": "TMDM43 CR TMDM 43" ,
+     },
+     {
+        "name": "Reshawat Hossain",
+        "contact": "+8801645485000",
+        "faculty" : "CR IPE-43",
+       "terms": "IPE43 CR IPE 43" ,
+     },
+     {
+        "name": "Md. Delwar Hossain",
+        "contact": "+8801630364940",
+        "faculty" : "CR FE-44",
+       "terms": "FE44 CR FE 44" ,
+     },
+     {
+        "name": "Tonmoy Sarkar",
+        "contact": "+8801876896973",
+        "faculty" : "CR FE-44",
+       "terms": "FE44 CR FE 44" ,
+     },
+     {
+        "name": "Saidul Islam",
+        "contact": "+8801876279164",
+        "faculty" : "CR FE-44",
+       "terms": "FE44 CR FE 44" ,
+     },
+     {
+        "name": "Md. Anowar Hossain Romman",
+        "contact": "+8801710388448",
+        "faculty" : "CR TEM-44",
+       "terms": "TEM44 CR TEM 44" ,
+     },
+     {
+        "name": "Zakaria",
+        "contact": "+8801531948883",
+        "faculty" : "CR AE-44",
+       "terms": "AE44 CR AE 44 apparel cr aparel cr" ,
+     },
 ];
 
 window.onload = function(){
@@ -984,6 +1184,108 @@ const outputHtml = matches =>{
     window.addEventListener('DOMContentLoaded', searchBooks);
     searchBooks(search);
     }
+
+
+function displayCR(){
+        var batch = document.getElementById("batch-display-list").value;
+        if(batch == "batch45"){
+            document.getElementById("cr-holder").innerHTML = `  <select id="cr-display-list" onChange="showCR()" class="book-display-list">
+            <option value="">Select Department</option>
+              <option value="ye45">YE</option>
+              <option value="FE45">FE</option>
+              <option value="WPE45">WPE</option>
+              <option value="AE45">AE</option>
+              <option value="tem45">TEM</option>
+              <option value="tfd45">TFD</option>
+              <option value="ipe45">IPE</option>
+              <option value="dce45">DCE</option>
+              <option value="tmdm45">TMDM</option>
+              <option value="ESE45">ESE</option>
+            </select>`
+
+        }
+        else if(batch == "batch44"){
+            document.getElementById("cr-holder").innerHTML = `  <select id="cr-display-list" onChange="showCR()" class="book-display-list">
+            <option value="">Select Department</option>
+              <option value="ye44">YE</option>
+              <option value="FE44">FE</option>
+              <option value="WPE44">WPE</option>
+              <option value="AE44">AE</option>
+              <option value="tem44">TEM</option>
+              <option value="tfd44">TFD</option>
+              <option value="ipe44">IPE</option>
+              <option value="dce44">DCE</option>
+              <option value="tmdm44">TMDM</option>
+            </select>`
+            
+        }
+        else if(batch == "batch43"){
+            document.getElementById("cr-holder").innerHTML = `  <select id="cr-display-list" onChange="showCR()" class="book-display-list">
+            <option value="">Select Department</option>
+              <option value="ye43">YE</option>
+              <option value="FE43">FE</option>
+              <option value="WPE43">WPE</option>
+              <option value="AE43">AE</option>
+              <option value="tem43">TEM</option>
+              <option value="tfd43">TFD</option>
+              <option value="ipe43">IPE</option>
+              <option value="dce43">DCE</option>
+              <option value="tmdm43">TMDM</option>
+            </select>`
+        }
+}
+
+//cr
+
+function showCR(){
+    console.log("Show Cr Called");
+    var search = document.getElementById("cr-display-list").value;
+    const matchList = document.getElementById("book-display");
+    let books;
+    console.log(search);
+
+//this function searches the booklist
+    const searchBooks = async searchText =>{
+    books = database;
+//get matches
+    let matches = books.filter(book =>{
+    const regex = new RegExp(`${searchText}`, 'gi'); // ^: will search for which resuls starts with 
+    return book.faculty.match(regex) || book.terms.match(regex);
+    });
+
+    if(searchText.length === 0){
+        matches = [];
+        matchList.innerHTML ="";
+    }
+
+    outputHtml(matches);
+    console.log(matches);
+    };
+
+//show results in html
+
+const outputHtml = matches =>{
+if(matches.length > 0){
+const html = matches.map(match => `
+<div class="card">
+<p class="card-title">Name: ${match.name}</p><p>${match.faculty}</p><br>
+<p><a href="tel:${match.contact}" id="url">${match.contact}</a></p><br>
+</div>
+`).join('');
+console.log(html);
+
+matchList.innerHTML = html;
+}
+else{
+matchList.innerHTML = null;
+
+}
+};
+
+        window.addEventListener('DOMContentLoaded', searchBooks);
+        searchBooks(search);
+}
+    
 
 
 
