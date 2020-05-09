@@ -1074,11 +1074,48 @@ let database = [
        "terms": "TEM44 CR TEM 44" ,
      },
      {
-        "name": "Zakaria",
-        "contact": "+8801531948883",
-        "faculty" : "CR AE-44",
-       "terms": "AE44 CR AE 44 apparel cr aparel cr" ,
+        "name": "Fazle Rabbe",
+        "contact": "+8801709035279",
+        "faculty" : "CR TEM-43",
+       "terms": "TEM43 CR TEM 43 management cr TEM cr" ,
      },
+     {
+      "name": "MD FOYEZ MAHMUD",
+      "contact": "+8801536137065",
+      "faculty" : "CR YE-43",
+     "terms": "YE43 CR YE 43 yarn cr YE cr" ,
+   },
+     {
+      "name": "Md Zakaria Bin Hossain",
+      "contact": "+8801531948883",
+      "faculty" : "CR AE-44",
+     "terms": "AE44 CR AE 44 apparel cr aparel cr" ,
+   },
+   {
+    "name": "Shahid Hosne Rabbi Zihan",
+    "contact": "+8801706293035",
+    "faculty" : "CR TFD-44",
+   "terms": "TFD44 CR TFD 44 Fashion cr TFD cr" ,
+ },
+   {
+    "name": "Md. Mehedi Hasan",
+    "contact": "+8801795529664",
+    "faculty" : "CR AE-44",
+   "terms": "AE44 CR AE 44 apparel cr aparel cr" ,
+ },
+ {
+  "name": "Istiaque Ahammed Joy",
+  "contact": "+8801745118617",
+  "faculty" : "CR TMDM-44",
+ "terms": "TMDM44 CR TMDM 44 TMDM cr TMDM cr" ,
+},
+{
+  "name": "Nasaya Haider",
+  "contact": "+8801303397253",
+  "faculty" : "CR TMDM-44",
+ "terms": "TMDM44 CR TMDM 44 TMDM cr TMDM cr" ,
+},
+
 ];
 
 window.onload = function(){
