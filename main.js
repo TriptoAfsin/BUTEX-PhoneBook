@@ -1104,6 +1104,12 @@ let database = [
    "terms": "AE44 CR AE 44 apparel cr aparel cr" ,
  },
  {
+  "name": "Dewan Kawser Shuvo",
+  "contact": "+8801631908195",
+  "faculty" : "CR AE-43",
+ "terms": "AE43 CR AE 43 apparel cr aparel cr" ,
+},
+ {
   "name": "Istiaque Ahammed Joy",
   "contact": "+8801745118617",
   "faculty" : "CR TMDM-44",
