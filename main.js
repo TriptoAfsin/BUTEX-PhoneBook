@@ -1097,6 +1097,12 @@ let database = [
     "faculty" : "CR TFD-44",
    "terms": "TFD44 CR TFD 44 Fashion cr TFD cr" ,
  },
+ {
+  "name": "Shariful Islam Akash",
+  "contact": "+8801521566529",
+  "faculty" : "CR TFD-45",
+ "terms": "TFD45 CR TFD 45 Fashion cr TFD cr" ,
+},
    {
     "name": "Md. Mehedi Hasan",
     "contact": "+8801795529664",
