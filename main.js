@@ -1127,6 +1127,12 @@ let database = [
   "faculty" : "CR TMDM-44",
  "terms": "TMDM44 CR TMDM 44 TMDM cr TMDM cr" ,
 },
+{
+  "name": "Iftekhar Morshed Arafat",
+  "contact": "+8801303336506",
+  "faculty" : "CR TMDM-43",
+ "terms": "TMDM43 CR TMDM 43 TMDM cr TMDM cr" ,
+},
 
 ];
 
