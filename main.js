@@ -885,8 +885,32 @@ let database = [
         "name": "SABBIR OSMANI ",
         "contact": "+8801864314011",
         "faculty" : "CR WPE-44",
-       "terms": "WPE44 WPE 44" ,
+       "terms": "WPE44 WPE 44 bus bunon" ,
      },
+     {
+      "name": "Ryhad",
+      "contact": "+8801956423857",
+      "faculty" : "Bunon Bus Batch-43",
+     "terms": "bus bunon" ,
+    },
+    {
+    "name": "Robin",
+    "contact": "+8801521330084",
+    "faculty" : "Chorka Bus Batch-42",
+   "terms": "bus chorka" ,
+    },
+    {
+   "name": "Shovon",
+   "contact": "+8801521332173",
+   "faculty" : "Tontu Bus Batch-42",
+  "terms": "bus tontu" ,
+     },
+    {
+    "name": "Biplob",
+    "contact": "+8801521439362",
+    "faculty" : "Tontu Bus Batch-42",
+    "terms": "bus tontu" ,
+    },
      {
         "name": "Md.Mujibul Haque Opu",
         "contact": "+8801638395260",
@@ -1023,7 +1047,7 @@ let database = [
         "name": "Md Tanvir Hasan Meraz",
         "contact": "+8801787541473",
         "faculty" : "CR WPE-43",
-       "terms": "WPE43 CR WPE 43" ,
+       "terms": "WPE43 CR WPE 43 bus ovijatrik" ,
      },
      {
         "name": "Nafis Azad",
@@ -1340,7 +1364,158 @@ matchList.innerHTML = null;
         window.addEventListener('DOMContentLoaded', searchBooks);
         searchBooks(search);
 }
+
+//bus
+
+function displayCR(){
+  var batch = document.getElementById("batch-display-list").value;
+  if(batch == "batch45"){
+      document.getElementById("cr-holder").innerHTML = `  <select id="cr-display-list" onChange="showCR()" class="book-display-list">
+      <option value="">Select Department</option>
+        <option value="ye45">YE</option>
+        <option value="FE45">FE</option>
+        <option value="WPE45">WPE</option>
+        <option value="AE45">AE</option>
+        <option value="tem45">TEM</option>
+        <option value="tfd45">TFD</option>
+        <option value="ipe45">IPE</option>
+        <option value="dce45">DCE</option>
+        <option value="tmdm45">TMDM</option>
+        <option value="ESE45">ESE</option>
+      </select>`
+
+  }
+  else if(batch == "batch44"){
+      document.getElementById("cr-holder").innerHTML = `  <select id="cr-display-list" onChange="showCR()" class="book-display-list">
+      <option value="">Select Department</option>
+        <option value="ye44">YE</option>
+        <option value="FE44">FE</option>
+        <option value="WPE44">WPE</option>
+        <option value="AE44">AE</option>
+        <option value="tem44">TEM</option>
+        <option value="tfd44">TFD</option>
+        <option value="ipe44">IPE</option>
+        <option value="dce44">DCE</option>
+        <option value="tmdm44">TMDM</option>
+      </select>`
+      
+  }
+  else if(batch == "batch43"){
+      document.getElementById("cr-holder").innerHTML = `  <select id="cr-display-list" onChange="showCR()" class="book-display-list">
+      <option value="">Select Department</option>
+        <option value="ye43">YE</option>
+        <option value="FE43">FE</option>
+        <option value="WPE43">WPE</option>
+        <option value="AE43">AE</option>
+        <option value="tem43">TEM</option>
+        <option value="tfd43">TFD</option>
+        <option value="ipe43">IPE</option>
+        <option value="dce43">DCE</option>
+        <option value="tmdm43">TMDM</option>
+      </select>`
+  }
+}
+
+//cr
+
+function showCR(){
+  console.log("Show Cr Called");
+  var search = document.getElementById("cr-display-list").value;
+  const matchList = document.getElementById("book-display");
+  let books;
+  console.log(search);
+
+//this function searches the booklist
+  const searchBooks = async searchText =>{
+  books = database;
+//get matches
+  let matches = books.filter(book =>{
+  const regex = new RegExp(`${searchText}`, 'gi'); // ^: will search for which resuls starts with 
+  return book.faculty.match(regex) || book.terms.match(regex);
+});
+
+  if(searchText.length === 0){
+  matches = [];
+  matchList.innerHTML ="";
+}
+
+  outputHtml(matches);
+  console.log(matches);
+};
+
+//show results in html
+
+  const outputHtml = matches =>{
+  if(matches.length > 0){
+  const html = matches.map(match => `
+  <div class="card">
+  <p class="card-title">Name: ${match.name}</p><p>${match.faculty}</p><br>
+  <p><a href="tel:${match.contact}" id="url">${match.contact}</a></p><br>
+  </div>
+  `).join('');
+  console.log(html);
+
+  matchList.innerHTML = html;
+  }
+  else{
+  matchList.innerHTML = null;
+}
+};
+
+  window.addEventListener('DOMContentLoaded', searchBooks);
+  searchBooks(search);
+}
     
+
+//bus
+
+function showBus(){
+  console.log("Show Bus Called");
+  var search = document.getElementById("batch-display-list").value;
+  const matchList = document.getElementById("book-display");
+  let books;
+  console.log(search);
+
+//this function searches the booklist
+  const searchBooks = async searchText =>{
+  books = database;
+//get matches
+  let matches = books.filter(book =>{
+  const regex = new RegExp(`${searchText}`, 'gi'); // ^: will search for which resuls starts with 
+  return book.faculty.match(regex) || book.terms.match(regex);
+});
+
+  if(searchText.length === 0){
+  matches = [];
+  matchList.innerHTML ="";
+}
+
+  outputHtml(matches);
+  console.log(matches);
+};
+
+//show results in html
+
+  const outputHtml = matches =>{
+  if(matches.length > 0){
+  const html = matches.map(match => `
+  <div class="card">
+  <p class="card-title">Name: ${match.name}</p><p>${match.faculty}</p><br>
+  <p><a href="tel:${match.contact}" id="url">${match.contact}</a></p><br>
+  </div>
+  `).join('');
+  console.log(html);
+
+  matchList.innerHTML = html;
+  }
+  else{
+  matchList.innerHTML = null;
+}
+};
+
+  window.addEventListener('DOMContentLoaded', searchBooks);
+  searchBooks(search);
+}
 
 
 
