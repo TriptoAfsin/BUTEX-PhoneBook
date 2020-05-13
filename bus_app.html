@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Contacts</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <form class="books-dropdown">
+            <p class="dropddown-header">Browse Bus Contacts - </p>
+            <p class="art-lit-edu">Select:</p>
+            <select id="batch-display-list" onchange="showBus()" class="book-display-list">
+            <option value="">Select Bus/Route</option>
+            <option value="bus chorka">Chorka(Mirpur)</option>
+            <option value="bus bunon">Bunon(Uttora)</option>
+            <option value="bus tontu">Tontu(Jatrabari)</option>
+            <option value="bus ovijatrik">Avijatrik(Azimpur)</option>
+          </form>
+    </div>
+    <div class="book-display" id="book-display">
+        <p id="suggestion">1. Select Bus/Route</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

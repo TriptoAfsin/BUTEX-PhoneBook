@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Contacts</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="ham-btn">
+            <img src="./ham.png" height="24px" width="28px" id="ham-btn">
+        </label>
+        <label class="brand"><a href="./index.html"><img src="./back.png"></a></label>
+        <ul>
+            <li><a href="./index.html" class="nav-btn">Home</a></li>
+            <li><a href="./books.html" class="nav-btn">Browse Departments</a></li>
+            <li><a href="./cr.html" class="nav-btn">CR Contacts</a></li>
+            <li><a href="./bus.html" class="nav-btn">Buses</a></li>
+            <li><a href="./submission.html" class="nav-btn">Submit Contacts</a></li>
+            <li><a href="http://www.facebook.com/sharer.php?u=https://triptoafsin.github.io/BUTEX-PhoneBook/" class="nav-btn">Share</a></li>
+            <li><a href="./about.html" class="nav-btn">About</a></li>
+        </ul>
+    </nav>
+    <div>
+        <form class="books-dropdown">
+            <p class="dropddown-header">Browse Bus Contacts - </p>
+            <p class="art-lit-edu">Select:</p>
+            <select id="batch-display-list" onchange="showBus()" class="book-display-list">
+            <option value="">Select Bus/Route</option>
+              <option value="bus chorka">Chorka(Mirpur)</option>
+              <option value="bus bunon">Bunon(Uttora)</option>
+              <option value="bus tontu">Tontu(Jatrabari)</option>
+              <option value="bus ovijatrik">Avijatrik(Azimpur)</option>
+            </select><br>
+          </form>
+    </div>
+    <div class="book-display" id="book-display">
+        <p id="suggestion">1. Select Bus/Route</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
