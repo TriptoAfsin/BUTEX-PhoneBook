@@ -666,6 +666,12 @@ let database = [
       "terms": "SKG" ,
      },
      {
+      "name": "Farhatul Janan",
+       "contact": "+8801799205535",
+       "faculty" : "Faculty of Textile Management & Business Studies(IPE)",
+      "terms": "FJ jenan" ,
+     },
+     {
       "name": "Sarmin Akhter",
        "contact": "+8801716384336",
        "faculty" : "Faculty of Textile Management & Business Studies(Mechanical Lab)",
