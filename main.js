@@ -21,7 +21,7 @@ let database = [
       "name": "Prof. Dr. Shaikh Md. Mominul Alam",
        "contact": "+8801713171365",
        "faculty" : "Faculty of Science & Engineering, Dept. of TMDM",
-      "terms": "momin tmdm" ,
+      "terms": "tmdm momin tmdm" ,
      },
      {
       "name": "A.N.M. Bazlur Rashid",
@@ -363,7 +363,7 @@ let database = [
       "name": "Md Jawed Ibn Amin",
        "contact": "+8801939877307",
        "faculty" : "Faculty of Textile Eng.(Fabric)",
-      "terms": "MJIA" ,
+      "terms": "fabric MJIA jawad zawad" ,
      },
      {
       "name": "A.N.M. Masudur Rahman",
@@ -375,7 +375,7 @@ let database = [
       "name": "Faisal Ahmed",
        "contact": "+8801720167907",
        "faculty" : "Faculty of Textile Eng.(Fabric)",
-      "terms": "" ,
+      "terms": "foysal" ,
      },
      {
       "name": "Md. Mohaddesh Hosen",
@@ -411,7 +411,7 @@ let database = [
       "name": "Md. Faruq Hossain",
        "contact": "+8801718916991",
        "faculty" : "Faculty of Textile Chemicals Eng.(Section Officer)",
-      "terms": "" ,
+      "terms": "faruk" ,
      },
      {
       "name": "Prof. Dr. Md.Zulhash Uddin",
@@ -561,7 +561,7 @@ let database = [
       "name": "Md. Nurun Nabi",
        "contact": "+8801762489317",
        "faculty" : "Faculty of Textile Management & Business Studies(TEM)",
-      "terms": "MNN" ,
+      "terms": "MNN nobi" ,
      },
      {
       "name": "Md. Arif Iqbal",
@@ -591,7 +591,7 @@ let database = [
       "name": "Farzana Sakila",
        "contact": "+8801670653995",
        "faculty" : "Faculty of Textile Management & Business Studies(TEM)",
-      "terms": "FS" ,
+      "terms": "FS farjana" ,
      },
      {
       "name": "Maeen Md. Khairul Akter",
@@ -633,19 +633,19 @@ let database = [
       "name": "Salima Sultana Shimo",
        "contact": "+8801713506721",
        "faculty" : "Faculty of Textile Management & Business Studies(IPE)",
-      "terms": "SSS" ,
+      "terms": "SSS simo shimu" ,
      },
      {
       "name": "Dr. Rafiqur Rashid",
        "contact": "+8801717122408",
        "faculty" : "Faculty of Textile Management & Business Studies(IPE)",
-      "terms": "Dr. RR" ,
+      "terms": "Dr. RR rafik rofik" ,
      },
      {
       "name": "Md. Mamunur Rashid",
        "contact": "+8801916150778",
        "faculty" : "Faculty of Textile Management & Business Studies(IPE)",
-      "terms": "MMR" ,
+      "terms": "MMR ipe mamun" ,
      },
      {
       "name": "Md. Ahsan Ahmed",
@@ -663,19 +663,19 @@ let database = [
       "name": "Sourav Kumar Ghosh",
        "contact": "+8801521253404",
        "faculty" : "Faculty of Textile Management & Business Studies(IPE)",
-      "terms": "SKG" ,
+      "terms": "SKG ipe sourov" ,
      },
      {
       "name": "Farhatul Janan",
        "contact": "+8801799205535",
        "faculty" : "Faculty of Textile Management & Business Studies(IPE)",
-      "terms": "FJ jenan" ,
+      "terms": "FJ ipe jenan" ,
      },
      {
       "name": "Sarmin Akhter",
        "contact": "+8801716384336",
        "faculty" : "Faculty of Textile Management & Business Studies(Mechanical Lab)",
-      "terms": "IPE" ,
+      "terms": "IPE sharmin" ,
      },
      {
       "name": "Dilara Hossain",
@@ -765,7 +765,7 @@ let database = [
       "name": "Upama Nasrin Haq",
        "contact": "+8801792795686",
        "faculty" : "Faculty of Fashion Design & Apparel Eng.(AE)",
-      "terms": "UNH apparel1" ,
+      "terms": "UNH apparel1 upoma" ,
      },
      {
       "name": "Smita Rani Debnath",
@@ -777,13 +777,13 @@ let database = [
       "name": "Nurunnesa Orpa",
        "contact": "+8801764679560",
        "faculty" : "Faculty of Fashion Design & Apparel Eng.(AE)",
-      "terms": "NNO apparel1" ,
+      "terms": "NNO apparel1 arpa am1" ,
      },
      {
       "name": "Sazid Elahi",
        "contact": "+8801521203475",
        "faculty" : "Faculty of Fashion Design & Apparel Eng.(AE)",
-      "terms": "SE apparel1" ,
+      "terms": "SE apparel1 apparel sajid am1" ,
      },
      {
       "name": "Shah Md. Maruf Hasan",
@@ -813,7 +813,7 @@ let database = [
       "name": "Sutapa Chowdhury",
        "contact": "+8801715865515",
        "faculty" : "Faculty of Fashion Design & Apparel Eng.(TFD)",
-      "terms": "tfd" ,
+      "terms": "tfd shutapa" ,
      },
      {
       "name": "Md. Mahmudul Hasan",
@@ -843,13 +843,13 @@ let database = [
       "name": "Bristi Sarker",
        "contact": "+8801790889839",
        "faculty" : "Faculty of Fashion Design & Apparel Eng.(TFD)",
-      "terms": "tfd BS" ,
+      "terms": "tfd BS brishti brishty" ,
      },
      {
       "name": "Kabari Majumder",
        "contact": "+8801832363335",
        "faculty" : "Academic Section",
-      "terms": "kaberi" ,
+      "terms": "kaberi office" ,
      },
      {
       "name": "Dr. Md. Abul Ishaque",
