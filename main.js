@@ -1169,9 +1169,13 @@ let database = [
 window.onload = function(){
     const search = document.getElementById("search");
     const matchList = document.getElementById("list");
-let books;
+    let books;
 
-document.getElementById("database").innerHTML = database.length + " Contacts";
+  document.getElementById("database").innerHTML = database.length + " Contacts";
+  registerSW(); //pwa service register function
+
+
+
 
 //this function searches the booklist
 const searchBooks = async searchText =>{
@@ -1521,6 +1525,20 @@ function showBus(){
 
   window.addEventListener('DOMContentLoaded', searchBooks);
   searchBooks(search);
+}
+
+
+//code for PWA
+
+async function registerSW(){
+
+  if('serviceWorker' in navigator){
+      try{
+          await navigator.serviceWorker.register('./sw.js');
+      }catch(e){
+          console.log("Service worker registration failed");
+      }
+  }
 }
 
 
