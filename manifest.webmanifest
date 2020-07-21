@@ -1,0 +1,17 @@
+{
+    "name": "BUTEX Phonebook",
+    "short_name": "BUTEX Phonebook",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#6aaf50",
+    "description": "Dynamic contacts list of BUTEX",
+    "icons": [
+        {
+            "src": "./pwa_icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+
+}
