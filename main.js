@@ -864,14 +864,14 @@ let database = [
     "terms": "doctor" 
    },
    {
-      "name": "Afshin Nahian Tripto",
-      "contact": "+8801936396220",
+      "name": "Mahfuzur Rahman Shaown",
+      "contact": "+8801721491989",
       "faculty" : "CR IPE-44",
      "terms": "ipe44 CR ipe 44" 
    },
    {
-      "name": "Mehedi Bhuiyan Sakib",
-      "contact": "+8801871513363",
+      "name": "Rahin Uddin",
+      "contact": "+8801879423100",
       "faculty" : "CR IPE-44",
      "terms": "ipe44 CR ipe 44" 
    },
