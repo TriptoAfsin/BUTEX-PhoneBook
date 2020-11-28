@@ -781,7 +781,7 @@ let database = [
    },
    {
     "name": "Sazid Elahi",
-     "contact": "+8801521203475",
+     "contact": "+8801321203475",
      "faculty" : "Faculty of Fashion Design & Apparel Eng.(AE)",
     "terms": "SE apparel1 apparel sajid am1" 
    },
